@@ -1,21 +1,29 @@
 {
   "files": {
     "main.css": "/test-app-frontend/static/css/main.7acaea2f.css",
-    "main.js": "/test-app-frontend/static/js/main.350e3781.js",
-    "static/js/561.e4d4cf73.chunk.js": "/test-app-frontend/static/js/561.e4d4cf73.chunk.js",
-    "static/js/209.18b8940d.chunk.js": "/test-app-frontend/static/js/209.18b8940d.chunk.js",
-    "static/js/988.9ed3e6d5.chunk.js": "/test-app-frontend/static/js/988.9ed3e6d5.chunk.js",
-    "static/js/759.fd252672.chunk.js": "/test-app-frontend/static/js/759.fd252672.chunk.js",
+    "main.js": "/test-app-frontend/static/js/main.66b3857c.js",
+    "static/js/279.cfb8df8c.chunk.js": "/test-app-frontend/static/js/279.cfb8df8c.chunk.js",
+    "static/js/154.c1d9fdad.chunk.js": "/test-app-frontend/static/js/154.c1d9fdad.chunk.js",
+    "static/js/759.8d2d42b5.chunk.js": "/test-app-frontend/static/js/759.8d2d42b5.chunk.js",
+    "static/js/537.68194bf5.chunk.js": "/test-app-frontend/static/js/537.68194bf5.chunk.js",
+    "static/js/346.ea8f25b6.chunk.js": "/test-app-frontend/static/js/346.ea8f25b6.chunk.js",
+    "static/media/HeartLogo.svg": "/test-app-frontend/static/media/HeartLogo.fafd73a7d95a7fa12e6b9b72e0024e65.svg",
+    "static/media/UploadedBackground.webp": "/test-app-frontend/static/media/UploadedBackground.c997de43d5fa87717a08.webp",
+    "static/media/LoadingBackground.webp": "/test-app-frontend/static/media/LoadingBackground.0e399c9ad8cef576ed0a.webp",
+    "static/media/MainBackground.webp": "/test-app-frontend/static/media/MainBackground.8a131a47785e8d917e9c.webp",
+    "static/media/Logo.svg": "/test-app-frontend/static/media/Logo.594318156baa50243820ec2d2163000a.svg",
     "index.html": "/test-app-frontend/index.html",
+    "static/media/UploadButton.svg": "/test-app-frontend/static/media/UploadButton.45f196582521bd1416830b0f74c59ed3.svg",
     "main.7acaea2f.css.map": "/test-app-frontend/static/css/main.7acaea2f.css.map",
-    "main.350e3781.js.map": "/test-app-frontend/static/js/main.350e3781.js.map",
-    "561.e4d4cf73.chunk.js.map": "/test-app-frontend/static/js/561.e4d4cf73.chunk.js.map",
-    "209.18b8940d.chunk.js.map": "/test-app-frontend/static/js/209.18b8940d.chunk.js.map",
-    "988.9ed3e6d5.chunk.js.map": "/test-app-frontend/static/js/988.9ed3e6d5.chunk.js.map",
-    "759.fd252672.chunk.js.map": "/test-app-frontend/static/js/759.fd252672.chunk.js.map"
+    "main.66b3857c.js.map": "/test-app-frontend/static/js/main.66b3857c.js.map",
+    "279.cfb8df8c.chunk.js.map": "/test-app-frontend/static/js/279.cfb8df8c.chunk.js.map",
+    "154.c1d9fdad.chunk.js.map": "/test-app-frontend/static/js/154.c1d9fdad.chunk.js.map",
+    "759.8d2d42b5.chunk.js.map": "/test-app-frontend/static/js/759.8d2d42b5.chunk.js.map",
+    "537.68194bf5.chunk.js.map": "/test-app-frontend/static/js/537.68194bf5.chunk.js.map",
+    "346.ea8f25b6.chunk.js.map": "/test-app-frontend/static/js/346.ea8f25b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.350e3781.js"
+    "static/js/main.66b3857c.js"
   ]
 }
