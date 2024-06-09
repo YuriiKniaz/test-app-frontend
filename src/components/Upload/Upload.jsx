@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import { uploadFile } from 'api/fileApi';
-import AppOpened from 'components/AppOpened/AppOpened';
+import { useNavigate } from 'react-router-dom';
 import Loading from 'components/Loading/Loading';
 import { NavLink } from 'react-router-dom';
+import Logo from '../../images/Logo.svg';
+import Arrow from '../../images/UploadButton.svg'
+import { UploadDiv, LogoWrap, UploadWrapper, InputWrapper } from './Upload.styled';
 
 const Upload = () => {
   const [file, setFile] = useState(null);
-const [fileData, setFileData] = useState(null)
-const [isLoading, setIsLoading] = useState(false)
+  const [isLoading, setIsLoading] = useState(false);
 
-
- 
+  const navigate = useNavigate();
 
   const onChange = e => {
     const selectedFile = e.target.files[0];
@@ -27,26 +28,55 @@ const [isLoading, setIsLoading] = useState(false)
       const formData = new FormData();
       formData.append('file', file);
 
-      const response = await uploadFile(formData);
-      setFileData(response.data)
+      setIsLoading(true);
 
-      setTimeout(()=>{
-setIsLoading(true);
-      }, 3000)
-     
+      const response = await uploadFile(formData);
+
+      setTimeout(() => {
+        setIsLoading(true);
+        navigate('/appOpened', { state: { file: response.data } });
+      }, 3000);
+
+      setFile(null);
     } catch (error) {
-      setFile(null)
+      console.error('Upload failed', error);
+      setIsLoading(false);
     }
   };
 
-  
-
   return (
-    <div>
-      <input type="file" name="file" onChange={onChange} />
-      <button onClick={onUpload}><NavLink to='/appOpened'/> Upload</button>
-      {isLoading?<AppOpened file={fileData}/>:<Loading/>}
-    </div>
+    <UploadDiv>
+      {isLoading ? (
+        <Loading />
+      ) : (
+        <>
+          <LogoWrap>
+            <img alt="logo" src={Logo} width="28px" height="31px" />
+            <NavLink to="/test-app-frontend">Roast</NavLink>
+          </LogoWrap>
+          <h1>Upload your data</h1>
+          <UploadWrapper>
+            <p>
+              Drag and Drop your <span>data.json</span> or {''}
+              <span>myData.zip</span> file here
+            </p>
+            <InputWrapper>
+              <input
+                type="file"
+                id="file-upload"
+                name="file"
+                onChange={onChange}
+              />
+              <label htmlFor="file-upload">
+                <img alt="arrow" src={Arrow} />
+              </label>
+            </InputWrapper>
+            <button onClick={onUpload}>Upload myData.json</button>
+            <p>I don`t have it</p>
+          </UploadWrapper>
+        </>
+      )}
+    </UploadDiv>
   );
 };
 
