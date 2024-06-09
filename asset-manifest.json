@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/test-app-frontend/static/css/main.7acaea2f.css",
-    "main.js": "/test-app-frontend/static/js/main.66b3857c.js",
+    "main.js": "/test-app-frontend/static/js/main.2d8e32ed.js",
     "static/js/279.cfb8df8c.chunk.js": "/test-app-frontend/static/js/279.cfb8df8c.chunk.js",
-    "static/js/154.c1d9fdad.chunk.js": "/test-app-frontend/static/js/154.c1d9fdad.chunk.js",
+    "static/js/154.49466be5.chunk.js": "/test-app-frontend/static/js/154.49466be5.chunk.js",
     "static/js/759.8d2d42b5.chunk.js": "/test-app-frontend/static/js/759.8d2d42b5.chunk.js",
     "static/js/537.68194bf5.chunk.js": "/test-app-frontend/static/js/537.68194bf5.chunk.js",
     "static/js/346.ea8f25b6.chunk.js": "/test-app-frontend/static/js/346.ea8f25b6.chunk.js",
@@ -15,15 +15,15 @@
     "index.html": "/test-app-frontend/index.html",
     "static/media/UploadButton.svg": "/test-app-frontend/static/media/UploadButton.45f196582521bd1416830b0f74c59ed3.svg",
     "main.7acaea2f.css.map": "/test-app-frontend/static/css/main.7acaea2f.css.map",
-    "main.66b3857c.js.map": "/test-app-frontend/static/js/main.66b3857c.js.map",
+    "main.2d8e32ed.js.map": "/test-app-frontend/static/js/main.2d8e32ed.js.map",
     "279.cfb8df8c.chunk.js.map": "/test-app-frontend/static/js/279.cfb8df8c.chunk.js.map",
-    "154.c1d9fdad.chunk.js.map": "/test-app-frontend/static/js/154.c1d9fdad.chunk.js.map",
+    "154.49466be5.chunk.js.map": "/test-app-frontend/static/js/154.49466be5.chunk.js.map",
     "759.8d2d42b5.chunk.js.map": "/test-app-frontend/static/js/759.8d2d42b5.chunk.js.map",
     "537.68194bf5.chunk.js.map": "/test-app-frontend/static/js/537.68194bf5.chunk.js.map",
     "346.ea8f25b6.chunk.js.map": "/test-app-frontend/static/js/346.ea8f25b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.66b3857c.js"
+    "static/js/main.2d8e32ed.js"
   ]
 }
